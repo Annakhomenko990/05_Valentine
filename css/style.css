@@ -4,7 +4,8 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  background: #ffffff url("img/preview.jpg") no-repeat 50% 0;
+  background: #ffffff url("../img/preview.jpg") no-repeat ;
+  background-size: cover;
 }
 
 h1 {
@@ -63,17 +64,17 @@ h2 {
 
 .feature-kitten {
   padding-top: 60px;
-  background-image: url("img/calendar.png");
+  background-image: url("../img/calendar.png");
 }
 
 .feature-cat {
   padding-top: 60px;
-  background-image: url("img/hearts (3).png");
+  background-image: url("../img/hearts (3).png");
 }
 
 .feature-train {
   padding-top: 60px;
-  background-image: url("img/love (1).png");
+  background-image: url("../img/love (1).png");
 }
 
 .skills-list {
@@ -105,4 +106,10 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   color: #ff5a26;
+}
+
+/"Block with purchase and display💕"/
+.site-footer p {
+  border: 1px solid #ff5a26;
+  padding: 10px 20px ;
 }
